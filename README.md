@@ -25,7 +25,7 @@
 
 2. Navigate to the project directory:
    ```bash
-   cd zapptrack
+   cd zap-track
    ```
 
 3. Install dependencies:
