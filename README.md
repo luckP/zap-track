@@ -20,7 +20,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/zapptrack.git
+   git clone https://github.com/luckP/zap-track.git
    ```
 
 2. Navigate to the project directory:
