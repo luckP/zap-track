@@ -1,83 +1,70 @@
-# ZappTrack 🚀
+# Getting Started with Create React App
 
-**ZappTrack** is a web application designed to simplify and enhance drone flight planning. With an interactive interface, users can create, visualize, and export flight plans in KMZ format, compatible with Google Earth and other GIS tools.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Features
+## Available Scripts
 
-- **Secure Login**: Powered by Firebase Authentication for reliable and secure user management.
-- **Interactive Map**: Intuitive tools for drawing and editing flight paths on a map.
-- **KMZ File Generation**: Export flight plans directly to KMZ format for use with compatible software and devices.
-- **Responsive Design**: Optimized for use across devices, including desktops, tablets, and smartphones.
+In the project directory, you can run:
 
-## Technologies Used
+### `npm start`
 
-- **Frontend**: React (JavaScript)
-- **Authentication**: Firebase Authentication
-- **Mapping**: React Leaflet or Google Maps API
-- **File Handling**: jszip for KMZ file generation
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/luckP/zap-track.git
-   ```
+### `npm test`
 
-2. Navigate to the project directory:
-   ```bash
-   cd zapptrack
-   ```
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+### `npm run build`
 
-4. Create a `.env` file in the root directory and add your Firebase configuration:
-   ```env
-   REACT_APP_FIREBASE_API_KEY=your-api-key
-   REACT_APP_AUTH_DOMAIN=your-auth-domain
-   REACT_APP_PROJECT_ID=your-project-id
-   REACT_APP_STORAGE_BUCKET=your-storage-bucket
-   REACT_APP_MESSAGING_SENDER_ID=your-messaging-sender-id
-   REACT_APP_APP_ID=your-app-id
-   ```
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-5. Start the development server:
-   ```bash
-   npm start
-   ```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Usage
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-1. Open the app in your browser at `http://localhost:3000`.
-2. Log in or create an account.
-3. Navigate to the main page to create your drone flight plan.
-4. Draw flight paths on the map and export them as KMZ files.
+### `npm run eject`
 
-## Contributing
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Contributions are welcome! To contribute:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add your message here"
-   ```
-4. Push to your forked repository:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-5. Open a pull request in the main repository.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-## License
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-This project is licensed under the [MIT License](LICENSE).
+## Learn More
 
----
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Feel free to enhance or modify this readme to match your specific project needs or preferences!
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
